@@ -1,0 +1,65 @@
+<div class="page-width {{ section.settings.section_css_class }}">
+
+<div class="profile-flex">
+  <div> 
+    <img class="profile-primary-image" src="{{section.settings.user_img | img_url: 'medium'}}"/>
+  </div>
+
+  <div>
+    <h3 class="profile-header">{{section.settings.user}}</h3>
+    <p class="profile-bio">{{section.settings.user_bio}}</p>
+  </div>
+</div>
+
+
+{% schema %}
+
+{
+    "name": "Profile",
+
+    "settings": [
+
+    {
+        "type": "image_picker",
+        "id": "user_img",
+        "label": "User Photo" 
+    },
+
+
+
+    {
+
+      "type": "text",
+          "id": "section_css_class",
+          "label": {
+            "en": "Section CSS Class"
+          },
+          "default": {
+            "en": "Type your own CSS class"
+          }
+        },
+
+
+
+
+    {
+        "type": "text",
+        "id": "user",
+        "label": "User Name" 
+    },
+    {
+        "type": "richtext",
+        "id": "user_bio",
+        "label": "User Bio" 
+    }
+  ],
+
+    "presets": [
+    {
+      "category": "Profile Name",
+        "name": "Profile"
+      }
+  ]
+}
+
+{% endschema %}

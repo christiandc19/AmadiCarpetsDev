@@ -1,0 +1,11 @@
+.profile-flex {
+  display: flex;
+}
+
+.profile-header {
+  color: green;
+}
+
+.profile-bio {
+  color: red;
+}

@@ -1,0 +1,1 @@
+{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}},"1659350509671eb986":{"type":"custom-liquid","settings":{"custom_liquid":"{{page.title}}\n<div>\n<ul class=\"flex\">\n<li>Chris<\/li>\n<li>Tian<\/li>\n<li>Dia<\/li>\n<\/ul>\n<\/div>","color_scheme":"background-1","padding_top":40,"padding_bottom":52}}},"order":["main","1659350509671eb986"]}

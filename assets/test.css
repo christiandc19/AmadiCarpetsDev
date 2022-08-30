@@ -1,0 +1,16 @@
+h1 {
+  color: green;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none;
+
+}
+
+  li {
+  list-style: none;
+
+}
